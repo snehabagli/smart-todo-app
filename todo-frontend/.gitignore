@@ -1,0 +1,11 @@
+# dependencies
+node_modules/
+
+# env files
+.env
+
+# react build
+todo-frontend/build/
+
+# logs
+npm-debug.log*

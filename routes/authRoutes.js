@@ -1,0 +1,14 @@
+const express = require("express");
+const router = express.Router();
+
+// IMPORT CONTROLLER FUNCTIONS
+const {
+  registerUser,
+  loginUser
+} = require("../controllers/authController");
+
+// ROUTES
+router.post("/register", registerUser);
+router.post("/login", loginUser);
+
+module.exports = router;
