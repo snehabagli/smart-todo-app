@@ -27,9 +27,6 @@ using JWT authentication and MongoDB.
 
 ---
 
-## Project Structure
-
-```text
 config/              # Database configuration
 controllers/         # Business logic
 models/              # Mongoose schemas
@@ -39,13 +36,5 @@ docs/                # Swagger documentation
 server.js            # Application entry point
 .env                 # Environment variables
 package.json         # Project metadata & dependencies
-
-
-Important:
-- The **three backticks** (``` ) are required
-- `text` is just for formatting
-- This is **Markdown formatting**, not terminal commands
-
----
 
 
