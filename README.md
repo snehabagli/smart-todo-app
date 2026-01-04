@@ -25,16 +25,5 @@ using JWT authentication and MongoDB.
 - Swagger
 - Postman
 
----
-
-config/              # Database configuration
-controllers/         # Business logic
-models/              # Mongoose schemas
-routes/              # API routes
-middleware/          # JWT authentication middleware
-docs/                # Swagger documentation
-server.js            # Application entry point
-.env                 # Environment variables
-package.json         # Project metadata & dependencies
 
 
